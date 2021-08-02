@@ -1,0 +1,59 @@
+﻿
+.tdDK {
+    text-align:right;
+}
+.tdrDK {
+    width:200px;
+    height:25px;
+    margin-left:5px;
+    border: 1px solid #3498db;
+}
+
+.btDNDK  {
+    width:200px;
+    height:35px;
+    margin:0px auto;
+    border: 2px solid #2ecc71;
+    outline:none;
+    background:none;
+    border-radius:24px;
+    transition:0.25s;
+    text-align:center;
+    cursor:pointer;
+    font-size:14px;
+}
+    .btDNDK:hover {
+        background-color: #2ecc71;
+        color:white;
+    }
+  #gioHang {
+    height:40px;
+}
+
+#gioHang ul {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+    #gioHang ul li {
+        float:right;
+        position:relative;
+        border-left:0.5px solid white;
+
+    }
+        #gioHang ul li a {
+            text-decoration:none;
+            background-color:none;
+            padding:0px 12px;
+            margin:0px;
+            display:block;
+            line-height:40px;
+            font-size:16px;   
+            color:black;
+            transition:0.2s all ease;
+        }
+         #gioHang ul li a:hover {
+                color:white;
+                /*background-color:#38b6ff;*/
+                background-color:#3abdc2;
+            }

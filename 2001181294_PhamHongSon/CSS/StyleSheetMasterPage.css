@@ -1,0 +1,162 @@
+﻿body {
+    font-family:'Poppins',Arial;
+    font-size:13px;
+}
+*{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+#contain {
+    width:1000px;
+    margin:0px auto;
+    padding:0px;
+    box-shadow:-5px -5px 5px #d7d7d7;
+}
+#banner {
+    width:1000px;
+    height:220px;
+    margin-bottom:4px;
+}
+#header{
+    width:1000px;
+    height:40px;
+    margin-bottom:4px;  
+    background-color:#5ce1e6;
+    
+}
+#left {
+    width:198px;
+    min-height:600px;
+    border:1px solid gray;
+    margin-right:5px;
+    margin-bottom:5px;
+    float:left;
+    box-shadow:-1px -1px 1px #DDD;
+    background-color:cyan;
+}
+#content {
+    width:793px;
+    min-height:600px;
+    border:1px solid gray;
+    margin-bottom:5px;
+    float:left;
+    box-shadow:-1px -1px 1px #DDD;
+}
+#footer {
+    clear:both;
+    min-height:100px;
+    border:1px solid gray;
+    box-shadow:-1px -1px 1px #DDD;
+}
+#imageLogo{
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#imageSachDong{
+    width:45px;
+    height:40px;
+    margin-left:10px;
+}
+
+#txtSearch {
+    float:left;
+    width:320px;
+    height:30px;
+    font-size:14px;
+    margin: 5px 0px 5px 10px;
+}
+#btSearchSach {
+    float:left;
+    width:24px;
+    height:24px;
+    margin:8px 10px 8px 1px;
+    /*background-color:white;*/
+    /*border:1px solid black;*/
+}
+/*.fa {
+   position:absolute;
+   top:18px;
+   right:50px;
+    right:40px;
+}*/
+
+.clear {
+    clear:both;
+}
+.fa {
+    
+}
+/*#btSearch{
+    width:30px;
+    height:26px;
+    border:none;
+    position:absolute;
+    background-color:white; 
+    top:11px;
+    right:31px;
+}*/
+    #btSearch:hover {
+        background-color:cyan;
+    }
+/*#imageButtonSearch {
+   position:absolute;
+   top:13px;
+   border:none;
+    right:34px;
+    width:22px;
+    height:22px;
+}*/
+#menu {
+    float:left;
+    height:40px;
+    width:869px;
+}
+#menu ul {
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+    #menu ul li {
+        float:left;
+        position:relative;
+        border-left:0.5px solid white;
+
+    }
+        #menu ul li a {
+            text-decoration:none;
+            background-color:none;
+            padding:0px 12px;
+            margin:0px;
+            display:block;
+            line-height:40px;
+            font-size:16px;   
+            color:black;
+            transition:0.2s all ease;
+        }
+         #menu ul li a:hover {
+                color:white;
+                /*background-color:#38b6ff;*/
+                background-color:#3abdc2;
+            }
+
+
+.theLoai {
+    height:40px;
+    line-height:40px;
+    margin:0px 0px 0px 10px;
+    padding:0px;
+    display:block;
+    width:178px;
+    list-style:none;
+    text-decoration:none;
+    color:black;
+    font-size:16px;
+    text-align:center;
+}
+    .theLoai:hover {
+        color:blue;
+    }
+/* */
